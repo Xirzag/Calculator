@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by alberto on 23/10/14.
  */
-public class testCalculator {
+public class TestCalculator {
 
     @Test
     public void sumShouldReturnFour(){
@@ -19,8 +19,10 @@ public class testCalculator {
         assertEquals(calculator.sum(3, 2), 5);
     }
 
-
-
-
+    @Test
+    public void subtructShouldReturnOne(){
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.sum(3, 2), 1);
+    }
 
 }
