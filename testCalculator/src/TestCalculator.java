@@ -22,7 +22,13 @@ public class TestCalculator {
     @Test
     public void subtructShouldReturnOne(){
         Calculator calculator = new Calculator();
-        assertEquals(calculator.sum(3, 2), 1);
+        assertEquals(calculator.subtruct(3, 2), 1);
+    }
+
+    @Test
+    public void subtructShouldReturnThree(){
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.subtruct(5, 2), 3);
     }
 
 }
