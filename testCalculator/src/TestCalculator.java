@@ -31,4 +31,10 @@ public class TestCalculator {
         assertEquals(calculator.subtruct(5, 2), 3);
     }
 
+    @Test
+    public void divideShouldReturnFour(){
+        Calculator calculator = new Calculator();
+        assertEquals(calculator.divide(8, 2));
+    }
+
 }
